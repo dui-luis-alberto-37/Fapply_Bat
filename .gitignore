@@ -1,0 +1,52 @@
+# --- Unity ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+# --- Recovery ---
+# Unity recovery folder
+Assets/_Recovery/
+Assets/_Recovery.meta
+# Plastic SCM (Unity Version Control)
+.plastic/
+# --- Visual Studio / Rider ---
+.vs/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Crash Reports ---
+sysinfo.txt
+
+# --- Packed files ---
+*.apk
+*.aab
+*.xcodeproj
+*.xcworkspace
+
+# --- Unity Cache Server ---
+[Cc]ache/
+
+# --- Asset Store tools ---
+Assets/AssetStoreTools*
+
+# Modelos (aunque sea 2D, puede haber algún FBX en animaciones)
+
+# MAC OSx
+Assets/assets/__MACOSX
