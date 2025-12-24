@@ -33,6 +33,6 @@ public class InfiniteBG : MonoBehaviour
     void SpwanBG()
     {
         lastLayerZ += 1f;
-        GameObject bg = Instantiate(BGprefab, new Vector3(transform.position.x+length, ypos, lastLayerZ), Quaternion.identity);
+        GameObject bg = Instantiate(BGprefab, new Vector3(transform.position.x+length, 0, lastLayerZ), Quaternion.identity);
     }
 }
